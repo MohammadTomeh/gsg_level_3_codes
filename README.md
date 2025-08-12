@@ -1,20 +1,36 @@
 # gsg_level_3_codes
-my name    :Mohammad Tomeh
-github id  :MohammadTomeh
 
+**Name:** Mohammad Tomeh  
+**GitHub ID:** MohammadTomeh
 
+---
 
-Problem statement :
-Given a number of days n (1 ≤ n ≤ 10), print all possible sequences of daily activities using the set:
+## Problem Statement
+Given a number of days `n` (1 ≤ n ≤ 10), print **all possible sequences** of daily activities using the set:
+```
 {"Swimming", "Running", "Football"}
-subject to the constraint that no two consecutive days have the same activity.
+```
+subject to the constraint that **no two consecutive days have the same activity**.
 
+> المطلوب: إعطاء عدد الأيام `n` (1 ≤ n ≤ 10)، اطبع جميع الترتيبات الممكنة للأنشطة اليومية من المجموعة أعلاه بحيث لا يتكرر نفس النشاط في يومين متتاليين.
 
-Example :
-input :
+### Input
+- A single integer `n` — the number of days.
+
+### Output
+- Every valid sequence on a separate line, with activities separated by a single space.
+- At the end, print the total number of valid sequences in the format:  
+  `COUNT: <number>`
+
+### Example
+
+**input:**
+```text
 2
+```
 
-output :
+**output:**
+```text
 Swimming Running
 Swimming Football
 Running Swimming
@@ -22,3 +38,10 @@ Running Football
 Football Swimming
 Football Running
 COUNT: 6
+```
+
+---
+
+### Notes
+- The order of sequences can be any deterministic order (e.g., lexicographic by activity names), as long as all valid sequences are printed exactly once.
+- Constraint reminder: `1 ≤ n ≤ 10`.
