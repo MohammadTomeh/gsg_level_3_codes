@@ -12,8 +12,6 @@ Given a number of days `n` (1 ≤ n ≤ 10), print **all possible sequences** of
 ```
 subject to the constraint that **no two consecutive days have the same activity**.
 
-> المطلوب: إعطاء عدد الأيام `n` (1 ≤ n ≤ 10)، اطبع جميع الترتيبات الممكنة للأنشطة اليومية من المجموعة أعلاه بحيث لا يتكرر نفس النشاط في يومين متتاليين.
-
 ### Input
 - A single integer `n` — the number of days.
 
