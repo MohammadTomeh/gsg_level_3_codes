@@ -48,7 +48,7 @@ COUNT: 6
 At day 1, there are **3** choices.  
 For each subsequent day, there are **2** choices (since it can't be the same as the previous day).  
 
-\[ \text{COUNT}(n) = 3 \times 2^{n-1} \]
+```text{COUNT}(n) = 3 \times 2^{n-1}```
 
 ---
 
